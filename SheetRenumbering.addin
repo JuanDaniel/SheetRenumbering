@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>SheetRenumbering</Name>
+    <Assembly>D:\WORK\Visual Studio Projects - 2017\Projects\SheetRenumbering\SheetRenumbering\bin\Debug\SheetRenumbering.dll</Assembly>
+    <AddInId>0ebde7a2-f488-44df-9bfe-1b8ea51c3461</AddInId>
+    <FullClassName>BBI.JD.CrtlApplication</FullClassName>
+    <VendorId>JDS</VendorId>
+    <VendorDescription>Juan Daniel SANTANA</VendorDescription>
+  </AddIn>
+</RevitAddIns>
