@@ -13,6 +13,14 @@ namespace BBI.JD.Forms
     public partial class SheetFilters : Form
     {
         private static string[] filters = new string[2] { "#", "Name" };
+
+
+
+
+
+
+
+
         private SheetRenumbering formParent;
         public List<Rule> rules;
 

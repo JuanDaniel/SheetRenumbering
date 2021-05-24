@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Reflection;
 using Color = System.Drawing.Color;
 using Form = System.Windows.Forms.Form;
 
@@ -300,6 +301,13 @@ namespace BBI.JD.Forms
             }
 
             formFilter.Show(this);
+        }
+
+        private string GetTiTleForm()
+        {
+            Version version = Assembly.GetExecutingAssembly().GetName().Version;
+
+            return string.Format("{0} ({1}.{2}.{3}.{4})", "Sheet Renumbering", version.Major, version.Minor, version.Build, version.Revision);
         }
 
         private void LoadSheetData()

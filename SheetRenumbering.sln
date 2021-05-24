@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheetRenumbering", "SheetRenumbering\SheetRenumbering.csproj", "{0EBDE7A2-F488-44DF-9BFE-1B8EA51C3461}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{342E7DBC-4ECB-44C1-963A-F6A73FBF3D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Installer", "Installer\Installer.csproj", "{BCF86F7C-56E4-478A-A45D-37F1E518C126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,12 @@ Global
 		{0EBDE7A2-F488-44DF-9BFE-1B8EA51C3461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EBDE7A2-F488-44DF-9BFE-1B8EA51C3461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EBDE7A2-F488-44DF-9BFE-1B8EA51C3461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342E7DBC-4ECB-44C1-963A-F6A73FBF3D9C}.Debug|Any CPU.ActiveCfg = Debug
+		{342E7DBC-4ECB-44C1-963A-F6A73FBF3D9C}.Release|Any CPU.ActiveCfg = Release
+		{BCF86F7C-56E4-478A-A45D-37F1E518C126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF86F7C-56E4-478A-A45D-37F1E518C126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF86F7C-56E4-478A-A45D-37F1E518C126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF86F7C-56E4-478A-A45D-37F1E518C126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
