@@ -332,7 +332,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SheetRenumbering";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = GetTiTleForm(); /*"Sheet Renumbering - TEST";*/
+            this.Text = "Sheet Renumbering - TEST"; //GetTiTleForm();
             this.Load += new System.EventHandler(this.SheetRenumbering_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SheetRenumbering_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.grid_Sheets)).EndInit();
